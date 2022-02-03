@@ -1,0 +1,23 @@
+Package: forecastlight
+Version: 0.01
+Title: Forecasting Functions for Time Series and Linear Models
+Description: A light-version copy of the original forecast-package by Rob J. Hyndman.
+Depends:
+  R (>= 3.0.2),
+Imports:
+  graphics,
+  parallel,
+  Rcpp (>= 0.11.0),
+  stats
+LinkingTo:
+  Rcpp (>= 0.11.0),
+  RcppArmadillo (>= 0.2.35)
+LazyData: yes
+ByteCompile: TRUE
+Authors@R: c(
+  person("Toby", "Tobynen", email="toby@nowhere.com", role=c("aut", "cre", "cph"))
+  )
+License: GPL-3
+VignetteBuilder: knitr
+Encoding: UTF-8
+RoxygenNote: 7.1.2
